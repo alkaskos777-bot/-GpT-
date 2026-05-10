@@ -37,7 +37,8 @@ def send_message(chat_id, text):
 
 def ask_wormgpt(messages):
     headers = {
-        "Authorization": f"Bearer {API_KEY}",
+     "Authorization": f"Bearer {API_KEY}",
+
         "Content-Type": "application/json"
     }
     payload = {
